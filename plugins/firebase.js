@@ -13,4 +13,5 @@ export default ({ app }, inject) => {
   inject("firestore", firebase.firestore());
   inject("fireAuth", firebase.auth());
   inject("fireStorage", firebase.storage());
+  console.log(app);
 };
